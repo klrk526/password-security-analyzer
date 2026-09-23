@@ -22,5 +22,17 @@ public class Main {
         } else {
             System.out.println("В пароле нет цифры.");
         }
+
+        for (int y = 0; y < password_length; y++) {
+            char symbol1 = passwords.charAt(y);
+            Character.isLowerCase(symbol1);
+            value = true;
+            
+        }
+        if (value == true) {
+            System.out.println("Пароль содержит строчные буквы");
+        } 
+            
+        
     }
-}
+}   
